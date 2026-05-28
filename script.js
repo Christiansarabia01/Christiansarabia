@@ -291,9 +291,9 @@ if (expButtons.length > 0 && modelViewer) {
 // 3. Download Micro-Animation Feedback
 if (downloadBtn) {
   downloadBtn.addEventListener('click', (e) => {
-    // We let the natural download happen (href is set to assets/A2 3D Model.blend)
+    // We let the natural download happen (href is set to assets/sword.glb)
     // But we trigger a cool console splash and micro-feedback!
-    console.log("Downloading A2 3D Model.blend source file...");
+    console.log("Downloading sword.glb source file...");
     
     const originalText = downloadBtn.innerHTML;
     
@@ -306,7 +306,7 @@ if (downloadBtn) {
       <svg class="download-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="transform: translateY(0px)">
         <polyline points="20 6 9 17 4 12"></polyline>
       </svg>
-      Downloading Blender Source!
+      Downloading 3D Model!
     `;
     
     setTimeout(() => {
